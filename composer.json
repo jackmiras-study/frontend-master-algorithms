@@ -1,0 +1,22 @@
+{
+    "name": "frontend-master/algorithms",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "FrontendMaster\\Algorithms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "jackmiras"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.9"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
